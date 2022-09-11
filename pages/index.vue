@@ -51,7 +51,7 @@
 
 
 
-            <div class="col-md-7 px-5 mt-4 mb-3">
+            <div class="col-md-7 px-5 mt-4 mb-3 mobile-width">
                 <div class="block-header">Описание выбранной услуги:</div>
                 <div class="info">Минимальный заказ: {{ min_order }}</div>
                 <div class="info">Максимальный заказ: {{ max_order }}</div>

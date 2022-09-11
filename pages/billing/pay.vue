@@ -23,7 +23,7 @@
 			</div>
 		</div>
 
-		<div class="col-md-7 px-5 mt-4 mb-3">
+		<div class="col-md-7 px-5 mt-4 mb-3 mobile-width">
 			<div class="info mt-3">
 				<div class="info">- Пополнить баланс можно только через сайт.</div>
 				<div class="info">- Информация о всех платежах на странице биллинга.</div>

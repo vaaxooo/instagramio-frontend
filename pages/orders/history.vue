@@ -4,34 +4,36 @@
 			<div class="order-block">
 				<div class="block-header">История заказов</div>
 				<div class="block-content">
-					<table class="table table-striped table-sm">
-						<thead>
-							<tr>
-								<th scope="col">ID</th>
-								<th scope="col">Услуга</th>
-								<th scope="col">Цена</th>
-								<th scope="col">Количество</th>
-								<th scope="col">Ссылка</th>
-								<th scope="col">Время</th>
-								<th scope="col">Статус</th>
-								<th scope="col"></th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr v-for="order of orders" :key="order.id">
-								<td>#{{ order.order_id }}</td>
-								<td>{{ order.service_id }}</td>
-								<td>{{ order.price }} $</td>
-								<td>{{ order.quantity }}</td>
-								<td>{{ order.url }}</td>
-								<td>{{ moment(order.createdAt).calendar() }}</td>
-								<td>{{ order.status }}</td>
-								<td>
-									<button class="btn btn-sm btn-danger" @click="cancelOrder(order.order_id)" v-if="order.status === 'pending'">Х</button>
-								</td>
-							</tr>
-						</tbody>
-					</table>
+					<div class="table-responsive">
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th scope="col">ID</th>
+									<th scope="col">Услуга</th>
+									<th scope="col">Цена</th>
+									<th scope="col">Количество</th>
+									<th scope="col">Ссылка</th>
+									<th scope="col">Время</th>
+									<th scope="col">Статус</th>
+									<th scope="col"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr v-for="order of orders" :key="order.id">
+									<td>#{{ order.order_id }}</td>
+									<td>{{ order.service_id }}</td>
+									<td>{{ order.price }} $</td>
+									<td>{{ order.quantity }}</td>
+									<td>{{ order.url }}</td>
+									<td>{{ moment(order.createdAt).calendar() }}</td>
+									<td>{{ order.status }}</td>
+									<td>
+										<button class="btn btn-sm btn-danger" @click="cancelOrder(order.order_id)" v-if="order.status === 'pending'">Х</button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
 			</div>
 		</div>
