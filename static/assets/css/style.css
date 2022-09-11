@@ -1,0 +1,76 @@
+body {
+    font-family: 'Gordita Regular', sans-serif;
+    background: #f5f4f4;
+}
+
+.content {
+    margin-top: 50px!important;
+}
+
+.order-block {
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 0.3571428571rem;
+    -webkit-box-shadow: 0 0 40px 0 rgb(33 29 51 / 10%);
+    -moz-box-shadow: 0 0 40px 0 rgba(33, 29, 51, .1);
+    box-shadow: 0 0 40px rgb(33 29 51 / 10%);
+}
+
+.block-header {
+    margin: 10px 0 20px 0;
+    font-size: 20px;
+    font-family: 'Gordita Regular';
+}
+
+label {
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-family: 'Gordita Medium';
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+input.form-control,
+select.form-select {
+    background: #f5f4f4!important;
+    border: 1px solid #f5f4f4!important;
+    border-radius: 0.3571428571rem;
+    cursor: pointer;
+}
+
+.btn-dark {
+    background-color: #363636!important;
+    border: #363636!important;
+    border-radius: 0.3571428571rem!important;
+}
+
+.btn-dark:hover {
+    background-color: rgba(54, 54, 54, .9)!important;
+    border: rgba(54, 54, 54, .9)!important;
+}
+
+.btn-orange {
+    background-color: #ff5913;
+    border: #ff5913;
+    color: #fff;
+    border-radius: 0.3571428571rem!important;
+}
+
+.btn-orange:hover {
+    background-color: #ff5913ba!important;
+    border: #ff5913ba!important;
+    color: #fff!important;
+}
+
+.logo {
+    font-size: 19px;
+}
+
+.form-select:focus,
+.form-control:focus {
+    border: 1px solid #ff5913!important;
+    outline: 0;
+    box-shadow: none;
+}
