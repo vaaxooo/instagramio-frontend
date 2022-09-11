@@ -51,8 +51,8 @@
 									<td>#{{ item.order_id }}</td>
 									<td>{{ moment(item.createdAt).calendar() }}</td>
 									<td>{{ item.amount }} $</td>
-									<td>{{ item.type }}</td>
-									<td>{{ item.status }}</td>
+									<td>{{ item.type === 'card' ? 'Карта' : 'Неизвестно' }}</td>
+									<td>{{ item.status === 'pending' ? 'Ожидает оплаты' : 'Зачислено'}}</td>
 								</tr>
 							</tbody>
 						</table>
