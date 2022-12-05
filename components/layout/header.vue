@@ -4,7 +4,7 @@
             <div class="container mx-0 px-0">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start mx-0 mobile-header">
                     <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 mx-0 text-dark text-decoration-none logo">
-                        <b class="mx-2">INSTAGRAMIO</b>
+                        <b class="mx-2">INSTABOOST</b>
                     </a>
 
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-start mb-md-0 mx-5">

@@ -8,7 +8,7 @@
 				<a href="https://t.me/vaaxooo" class="footer-link" target="_blank"> Telegram</a>
 			</div>
 			<span class="text-muted">Накрутка инстаграм подписчиков, лайков, просмотров, комментариев...</span>
-			<div class="text-muted d-flex">2022 © Instagramio.com</div>
+			<div class="text-muted d-flex">2022 © instaboost.online</div>
 		</div>
 		</footer>
 	</div>
