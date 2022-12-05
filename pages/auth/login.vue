@@ -6,13 +6,13 @@
 				<div class="block-content">
 					<div class="form-group">
 						<label for="quantity">E-mail</label>
-						<input type="text" class="form-control" id="quantity" placeholder="Введите e-mail" v-model="email" :class="{'is-invalid': errors.email}">
+						<input type="email" class="form-control" id="quantity" placeholder="Введите e-mail" v-model="email" :class="{'is-invalid': errors.email}">
 						<span class="text-danger" v-if="errors.email">{{ errors.email[0] }}</span>
 					</div>
 
 					<div class="form-group">
 						<label for="quantity">Пароль</label>
-						<input type="text" class="form-control" id="quantity" placeholder="Введите пароль" v-model="password" :class="{'is-invalid': errors.password}">
+						<input type="password" class="form-control" id="quantity" placeholder="Введите пароль" v-model="password" :class="{'is-invalid': errors.password}">
 						<span class="text-danger" v-if="errors.password">{{ errors.password[0] }}</span>
 					</div>
 
