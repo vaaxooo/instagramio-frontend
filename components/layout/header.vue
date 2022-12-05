@@ -10,7 +10,7 @@
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-start mb-md-0 mx-5">
                         <li><a href="/" class="nav-link px-2 text-dark">Накрутить</a></li>
                         <li><a href="/prices" class="nav-link px-2 text-dark">Цены</a></li>
-                        <li><a href="https://www.instagram.com/nikita.aleksandr0vich/" class="nav-link px-2 text-dark" target="_blank">Поддержка</a></li>
+                        <li><a href="https://t.me/vaaxooo" class="nav-link px-2 text-dark" target="_blank">Тех. поддержка</a></li>
                     </ul>
 
                     <div class="text-end" v-if="!$auth.user">

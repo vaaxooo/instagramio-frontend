@@ -97,3 +97,11 @@ select.form-select {
         margin-top: 20px!important;
     }
 }
+
+.info.wallet {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+    color: #dc3545;
+    word-break: break-all;
+}
